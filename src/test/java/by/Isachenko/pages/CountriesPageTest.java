@@ -16,7 +16,7 @@ public class CountriesPageTest extends TestBase {
         super.logAsAdmin();
         CountriesPage page = new CountriesPage();
         Menu menu = new Menu();
-        menu.countriesMenuclick(driver, menu.countries);
+        menu.menuclick(driver, menu.countries);
         List<WebElement> listCountries = page.getListCountries(driver);
 
         int numberCountries = listCountries.size();
@@ -77,7 +77,7 @@ public class CountriesPageTest extends TestBase {
         CountriesPage countriesPage = new CountriesPage();
         CountryPage countryPage = new CountryPage();
         Menu menu = new Menu();
-        menu.countriesMenuclick(driver, menu.countries);
+        menu.menuclick(driver, menu.countries);
         List<WebElement> listCountries = countriesPage.getListCountries(driver);
         int numberCountries = listCountries.size();
         for (int n = 0; n < numberCountries; n++) {
@@ -101,7 +101,7 @@ public class CountriesPageTest extends TestBase {
             } else {
                 System.out.println("Info: " + "It is not zones list on page.");
             }
-            menu.countriesMenuclick(driver, menu.countries);
+            menu.menuclick(driver, menu.countries);
             listCountries = countriesPage.getListCountries(driver);
         }
         System.out.println("Test is over.");

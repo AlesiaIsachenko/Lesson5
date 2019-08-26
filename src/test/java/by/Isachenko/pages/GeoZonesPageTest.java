@@ -15,7 +15,7 @@ public class GeoZonesPageTest  extends TestBase {
     public void testSortGeoZone() {
         super.logAsAdmin();
         Menu menu = new Menu();
-        menu.countriesMenuclick(driver, menu.geoZones);
+        menu.menuclick(driver, menu.geoZones);
         GeoZonesPage geoZonesPage = new GeoZonesPage();
         GeoZonePage geoZonePage = new GeoZonePage();
         List<WebElement> listGeoZone = geoZonesPage.getListGeoZones(driver);
@@ -40,7 +40,7 @@ public class GeoZonesPageTest  extends TestBase {
                 System.out.println("Warn : " + "Zones list is not sorted correctly!");
                 System.out.println();
             }
-            menu.countriesMenuclick(driver, menu.geoZones);
+            menu.menuclick(driver, menu.geoZones);
             listGeoZone  = geoZonesPage.getListGeoZones(driver);
         }
         System.out.println("Test is over.");
