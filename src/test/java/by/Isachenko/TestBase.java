@@ -1,5 +1,6 @@
 package by.Isachenko;
 
+import org.checkerframework.checker.nullness.qual.Nullable;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.By;
@@ -12,9 +13,12 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.NoSuchElementException;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import static java.lang.System.out;
@@ -53,6 +57,16 @@ public class TestBase {
         driver.findElement(By.name("password")).sendKeys("admin");
         WebElement btnLog = driver.findElement(By.name("login"));
         btnLog.click();
+    }
+
+    public ExpectedCondition<String> anyWindowOtherThan(Set<String> oldWindows){
+        return new ExpectedCondition<String>() {
+            public String apply(WebDriver driver) {
+                Set<String> handles = driver.getWindowHandles();
+                handles.removeAll(oldWindows);
+                return handles.size()>0 ? handles.iterator().next() : null;
+            }
+        };
     }
 
     @Before

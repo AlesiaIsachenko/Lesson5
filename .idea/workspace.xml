@@ -37,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddNewProductTest.testAddNewProduct">
+  <component name="RunManager" selected="JUnit.HrefCountryTest.HrefCountriesTest">
     <configuration name="AddNewProductTest.testAddNewProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson5" />
       <extension name="coverage">
@@ -85,8 +85,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HrefCountriesTest.HrefCountriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.Isachenko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.Isachenko" />
+      <option name="MAIN_CLASS_NAME" value="by.Isachenko.HrefCountriesTest" />
+      <option name="METHOD_NAME" value="HrefCountriesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HrefCountryTest.HrefCountriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.Isachenko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.Isachenko" />
+      <option name="MAIN_CLASS_NAME" value="by.Isachenko.HrefCountryTest" />
+      <option name="METHOD_NAME" value="HrefCountriesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HrefCountryTest.HrefCountriesTest" />
+        <item itemvalue="JUnit.HrefCountriesTest.HrefCountriesTest" />
         <item itemvalue="JUnit.AddNewProductTest.testAddNewProduct" />
         <item itemvalue="JUnit.GeoZonesPageTest.testSortGeoZone" />
         <item itemvalue="JUnit.CountriesPageTest" />

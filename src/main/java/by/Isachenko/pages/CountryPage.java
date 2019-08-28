@@ -13,4 +13,8 @@ public class CountryPage {
     public String getZoneName(WebElement element){
         return element.getAttribute("value");
     }
+
+    public List<WebElement> getHref(WebDriver driver){
+        return driver.findElements(By.cssSelector(".fa-external-link"));
+    }
 }
