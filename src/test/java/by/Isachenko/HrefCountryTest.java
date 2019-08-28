@@ -13,7 +13,7 @@ import java.util.Set;
 
 public class HrefCountryTest extends TestBase{
     @Test
-    public void HrefCountriesTest() {
+    public void HrefCountryTest() {
         super.logAsAdmin();
         Menu menu = new Menu();
         menu.menuclick(driver, menu.countries);

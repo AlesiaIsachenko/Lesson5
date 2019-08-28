@@ -37,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HrefCountryTest.HrefCountriesTest">
+  <component name="RunManager" selected="JUnit.HrefCountryTest.HrefCountryTest">
     <configuration name="AddNewProductTest.testAddNewProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson5" />
       <extension name="coverage">
@@ -50,21 +50,6 @@
       <option name="MAIN_CLASS_NAME" value="by.Isachenko.AddNewProductTest" />
       <option name="METHOD_NAME" value="testAddNewProduct" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountriesPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.Isachenko.pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="by.Isachenko.pages" />
-      <option name="MAIN_CLASS_NAME" value="by.Isachenko.pages.CountriesPageTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,13 +102,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HrefCountryTest.HrefCountryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.Isachenko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.Isachenko" />
+      <option name="MAIN_CLASS_NAME" value="by.Isachenko.HrefCountryTest" />
+      <option name="METHOD_NAME" value="HrefCountryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HrefCountryTest.HrefCountryTest" />
         <item itemvalue="JUnit.HrefCountryTest.HrefCountriesTest" />
         <item itemvalue="JUnit.HrefCountriesTest.HrefCountriesTest" />
         <item itemvalue="JUnit.AddNewProductTest.testAddNewProduct" />
         <item itemvalue="JUnit.GeoZonesPageTest.testSortGeoZone" />
-        <item itemvalue="JUnit.CountriesPageTest" />
       </list>
     </recent_temporary>
   </component>
